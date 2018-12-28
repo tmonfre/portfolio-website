@@ -10,7 +10,7 @@ class Projects extends Component {
                 <div className="dev-samples">
                     <div className="left">
                         <h2>Local Weather Forecast</h2>
-                        <p>Website built using React that presents live weather information to users via the OpenWeatherMap public API. Users can hover and click for detailed weather information.</p>
+                        <p>Website built using React that presents live weather information to users via the OpenWeatherMap public API. The site uses cookies to remember the user's last selection.</p>
                         <em><p>View the code <a href="https://github.com/tmonfre/weather-app" target="_blank" rel="noopener noreferrer">here.</a> Visit the site <a href="https://local-weather-forecast.surge.sh" target="_blank" rel="noopener noreferrer">here.</a></p></em>
                         <ImgurEmbed id="a/Yh31h6a" />
                     </div>
@@ -32,17 +32,17 @@ class Projects extends Component {
                     </div>
 
                     <div className="right">
+                        <h2>Portfolio Website</h2>
+                        <p>Website built using React that displays my resume and portfolio information. Page contents are loaded with react-router. Bootstrapped with create-react-app.</p>
+                        <em><p>View the code <a href="https://github.com/tmonfre/portfolio-website" target="_blank" rel="noopener noreferrer">here.</a></p></em>
+                        <ImgurEmbed id="a/4DFWxXV" />
+                    </div>
+
+                    <div className="right">
                         <h2>Concentration</h2>
                         <p>In the summer of 2018, I worked on an iOS memory game app. This is my first project in Swift. Inspired by Stanford CS193p.</p>
                         <em><p>View the code <a href="https://github.com/tmonfre/concentration" target="_blank" rel="noopener noreferrer">here.</a> Click through the images below.</p></em>
                         <ImgurEmbed id="a/vV2YtPm" />
-                    </div>
-
-                    <div className="left">
-                        <h2>Portfolio Website</h2>
-                        <p>This website serves as an example of my basic web development work. All animations use jQuery. </p>
-                        <em><p>View the code <a href="https://github.com/tmonfre/portfolio-website" target="_blank" rel="noopener noreferrer">here.</a></p></em>
-                        <ImgurEmbed id="a/4DFWxXV" />
                     </div>
 
                     <div style={{clear:"both"}}></div>
