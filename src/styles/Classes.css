@@ -1,0 +1,31 @@
+#classes h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.course-dropdown {
+    margin-top: 5px;
+}
+
+.title {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.description {
+    font-weight: lighter;
+    margin: 10px 0px 15px 30px;
+    display: none;
+}
+
+#last {
+    padding-bottom: 10px;
+}
+
+#buffer {
+    margin-bottom: 150px ;
+}

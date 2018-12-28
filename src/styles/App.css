@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1050px;
+    height: auto;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #252525;
+    font-family: 'Open Sans', arial, serif;
+}
+
+body h1, h2, h3, h4 {
+    /* font-family: 'Fira Sans', arial, serif; */
+    letter-spacing: -1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: white;
+    padding: 90px 20px 30px 20px;
+    height: 100%;
+    min-height: calc(100vh - 330px);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1080px) {
+    .container {
+        width: auto;
+    }
+}

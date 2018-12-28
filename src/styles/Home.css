@@ -1,0 +1,228 @@
+#about-me-preview {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: auto auto;
+    -ms-grid-columns: auto auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #413f3f;
+    margin-left: 80px;
+    margin-right: 80px;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+#circle:hover {
+    border: 3px solid #3d84de;
+}
+
+#about-me-text {
+    align-self: center;
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+}
+
+#about-me-text p {
+    line-height: 30px;
+    font-family: 'Open Sans', arial, serif;
+}
+
+#about-me-text a {
+    text-decoration: none;
+    color: #3d84ee;
+}
+
+#about-me-text a:hover {
+    text-decoration: underline;
+}
+
+#content-preview-area {
+    height: 200px;
+    background-color: white;
+    padding-top: 30px;
+    transition: height ease 0.5s;
+    margin-left: 30px;
+    transition-duration: 1s;
+    margin-bottom: 20px;
+}
+
+.preview-box {
+    float: left;
+    height: auto;
+    margin-left: 55px;
+    margin-right: 25px;
+    background-color: #413f3f;
+    width: 200px;
+    padding: 20px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    margin-bottom: 50px;
+    border: 3px solid #3d84de;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: height ease 0.5s;
+}
+
+.preview-box ul {
+    padding-top: 30px;
+    display: none;
+}
+
+.preview-box li {
+    font-size: 18px;
+    list-style: none;
+}
+
+.preview-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.preview-box a:hover {
+    text-decoration: underline;
+}
+
+.hover-box {
+    background-color: #3d84de;
+    border: 4px solid #413f3f;
+    padding: 19px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.contact-me-box li {
+    font-size: 16px;
+}
+
+#link a {
+    text-decoration: none;
+    color: #3d84ee;
+}
+
+#link p {
+    font-family: 'Open Sans', arial, serif;
+}
+
+
+/* ----------- Tablet  ----------- */
+
+@media only screen and (min-width: 960px) and (max-width: 1050px) {
+
+    #about-me-text {
+        margin-right: 50px;
+    }
+
+    .preview-box {
+        width: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .projects-box {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #content-preview-area {
+        padding-top: 60px;
+        margin-left: 90px;
+        width: 650px;
+        margin: auto;
+    }
+
+}
+
+/* ----------- Smartphone ----------- */
+
+@media only screen and (min-width: 708px) and (max-width: 960px) {
+
+    #about-me-preview {
+        grid-template-columns: auto;
+        -ms-grid-columns: auto;
+        margin-top: 40px;
+    }
+
+    #circle {
+        margin-left: auto;
+        margin-right: auto;
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+
+    #circle:hover {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about-me-text {
+        margin: 50px;
+        margin-bottom: 0px;
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+    .preview-box {
+        width: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .projects-box {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #content-preview-area {
+        padding-top: 60px;
+        margin-left: 90px;
+        width: 650px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 708px) {
+    #about-me-preview {
+        grid-template-columns: auto;
+        -ms-grid-columns: auto;
+        margin-top: 40px;
+    }
+
+    #circle {
+        margin-left: auto;
+        margin-right: auto;
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+
+    #circle:hover {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about-me-text {
+        margin: 50px;
+        margin-bottom: 0px;
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+    #content-preview-area {
+        height: auto;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .preview-box {
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
