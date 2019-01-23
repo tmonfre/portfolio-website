@@ -9,7 +9,7 @@ class Footer extends Component {
                 <div id="footer">
                     <div className="container">
                         <div id="footer-images">
-                            <a href="https://www.linkedin.com/in/thomas-monfre-0b1a50164/" target="_blank" rel="noopener noreferrer"><img id="linkedin" src={require("../assets/footer/linkedin_logo.png")} alt="My LinkedIn account" width="250" height="68"></img></a>
+                            <a href="https://www.linkedin.com/in/thomas-monfre" target="_blank" rel="noopener noreferrer"><img id="linkedin" src={require("../assets/footer/linkedin_logo.png")} alt="My LinkedIn account" width="250" height="68"></img></a>
                             <a href="https://github.com/tmonfre" target="_blank" rel="noopener noreferrer"><img id="github" src={require("../assets/footer/github_logo.png")} alt="My GitHub account" width="211" height="55"></img></a>
                         </div>
                         <div style={{clear:"both"}}></div>

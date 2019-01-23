@@ -1,9 +1,9 @@
-#resumeInformation h3 {
+.resumeInformation h3 {
     padding-top: 20px;
     padding-bottom: 15px;
 }
 
-#resumeInformation p {
+.resumeInformation p {
     font-family: 'Open Sans', arial, serif;
     line-height: 25px;
     margin-bottom: 5px;
@@ -17,7 +17,7 @@
     text-decoration: underline;
 }
 
-#resumeInformation li {
+.resumeInformation li {
     list-style: none;
     font-family: 'Open Sans', arial, serif;
     margin-bottom: 2px;
@@ -33,6 +33,10 @@
 .job {
     float: left;
     width: 905px;
+}
+
+.activity {
+    width: 1000px;
 }
 
 .job-title, .school-title {
@@ -67,6 +71,10 @@
 
 #classes-link {
     float: right;
+}
+
+#additional-activities {
+    margin-bottom: 5px;
 }
 
 .no-link a {
@@ -120,6 +128,10 @@
 
 @media only screen and (min-width: 320px) and (max-width: 1080px) {
     .job {
+        width: auto;
+    }
+
+    .activity {
         width: auto;
     }
 

@@ -21,9 +21,9 @@ class Home extends Component {
                         </Link>
                     </div>
                     <div id="about-me-text">
-                        <p>My name is Thomas Monfre. I am a sophomore at Dartmouth College studying Computer Science and Quantitative Social Science.</p><br></br>
-                        <p>This website contains information about my background, experience, and interests as well as some portfolio samples of my design and development work. Please feel free to reach out with any questions, opportunities, or business inquiries.</p><br></br>
-                        <p>Read more about me <strong><Link to="/aboutme">here</Link></strong> or download my full resume <strong><a href="https://drive.google.com/file/d/1Au_hw6jFTx4mLNFmpcHoo217YT0Q8g9_/view?usp=sharing">here.</a></strong></p>
+                        <p>Sophomore at Dartmouth College studying Computer Science and Quantitative Social Science.</p><br></br>
+                        <p>I have experience in web development, data visualization, and workflow/process optimization. My interests include leveraging the power of technology to solve meaningful problems and the impact of data analytics on daily life. I'm currently seeking web/software development internship opportunities for Fall 2019.</p><br></br>
+                        <p>Read more about me <strong><Link to="/aboutme">here</Link></strong> or download my full resume <strong><a href="https://drive.google.com/file/d/1gAScDlTgdTyDoF1aDvXdQBh-7ENtu8bD/view?usp=sharing">here.</a></strong></p>
                     </div>
                 </div>
 
