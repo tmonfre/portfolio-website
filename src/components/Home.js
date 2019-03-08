@@ -23,7 +23,7 @@ class Home extends Component {
                     <div id="about-me-text">
                         <p>Sophomore at Dartmouth College studying Computer Science and Quantitative Social Science.</p><br></br>
                         <p>I have experience in web development, data visualization, and workflow/process optimization. My interests include leveraging the power of technology to solve meaningful problems and the impact of data analytics on daily life. I'm currently seeking web/software development internship opportunities for Fall 2019.</p><br></br>
-                        <p>Read more about me <strong><Link to="/aboutme">here</Link></strong> or download my full resume <strong><a href="https://drive.google.com/file/d/1gAScDlTgdTyDoF1aDvXdQBh-7ENtu8bD/view?usp=sharing">here.</a></strong></p>
+                        <p>Read more about me <strong><Link to="/aboutme">here</Link></strong> or download my full resume <strong><a href="https://drive.google.com/file/d/1uJMslqlzKiLzVONBaDUXBOwHZExmRiDE/view?usp=sharing">here.</a></strong></p>
                     </div>
                 </div>
 

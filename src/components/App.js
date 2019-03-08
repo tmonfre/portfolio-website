@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop.js'
 import NavBar from './NavBar.js'
 import Footer from './Footer.js'
@@ -18,7 +19,7 @@ class App extends Component {
     }
     render() {
         return(
-            <Router>
+            <HashRouter hashType="noslash">
               <div>
                 <NavBar appRef={this} ref={this.navbar} />
                 <div className="main-content" onClick={this.handleContentClick}>
@@ -36,7 +37,7 @@ class App extends Component {
                 <ScrollToTop />
                 <Footer />
               </div>
-            </Router>
+            </HashRouter>
         );
     }
 

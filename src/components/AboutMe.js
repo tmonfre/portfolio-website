@@ -124,8 +124,10 @@ class AboutMe extends Component {
                                     <li>Java</li>
                                     <li>JavaScript</li>
                                     <li>React.js</li>
-                                    <li>Node.js</li>
+                                    <li>Node.js/Express.js</li>
+                                    <li>R</li>
                                     <li>MatLab</li>
+                                    <li>NumPy/SciPy/scikit-learn for ML</li>
                                     <li>DAX/M</li>
                                 </ul>
                             </div>
@@ -133,28 +135,28 @@ class AboutMe extends Component {
                             <div className="flex-item">
                                 <p className="content-title">Working Knowledge</p>
                                 <ul>
-                                    <li>R</li>
-                                    <li>scikit-learn</li>
                                     <li>Swift</li>
+                                    <li>SQL</li>
                                 </ul>
                             </div>
 
                             <div className="flex-item">
                                 <p className="content-title">Learning</p>
                                 <ul>
+                                    <li>C / C++</li>
                                     <li>Redux</li>
                                     <li>Angular.js</li>
-                                    <li>Express.js</li>
+                                    <li>Vue.js</li>
                                 </ul>
                             </div>
                         </div>
                         <ul>
                             <li>Strong leadership, presentation, and organizational skills.</li>
                             <li>Logical thinking, deductive reasoning, and problem-solving skills.</li>
-                            <li>Experienced in full stack web development, object-oriented programming, and data visualization.</li>
+                            <li>Experienced in full-stack web development, object-oriented programming, and software development.</li>
+                            <li>Experienced in data visualization, data analysis, and developing tools for data-driven decision making.</li>
                             <li>Experienced in consulting and management as it relates to technology and workflow improvement.</li>
-                            <li>Experienced in digital media, marketing, and social media development.</li>
-                            <li>Business proficient in German.</li>
+                            <li>Conversational in German.</li>
                         </ul>
                     </div>
 

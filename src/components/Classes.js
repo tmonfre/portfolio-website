@@ -10,7 +10,7 @@ class Classes extends Component {
     render() {
         return(
             <div id="classes">
-                <h3>Current/Upcoming Classes</h3>
+                <h3>Current Classes</h3>
 
                 <div className="course-dropdown" onClick={this.handleTitleClick}>
                     <p className="title">CS 31: Algorithms</p>
