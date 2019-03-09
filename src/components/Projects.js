@@ -17,10 +17,10 @@ class Projects extends Component {
                         </div>
 
                         <div className="dev-sample-area">
-                            <h2>DALI Lab Members</h2>
-                            <p>Personal project built with React that queries and displays data on DALI Lab Members. Users can filter, sort, and search. JSX is compiled using webpack and babel.</p>
-                            <em><p>View the code <a href="https://github.com/tmonfre/dali-dev-challenge" target="_blank" rel="noopener noreferrer">here.</a> Visit the website <a href="http://dali-dev-challenge.surge.sh" target="_blank" rel="noopener noreferrer">here.</a></p></em>
-                            <ImgurEmbed id="a/JbnSF7M" />
+                            <h2>Portfolio Website</h2>
+                            <p>Website built with React that displays my resume and portfolio information. Page contents are loaded with react-router. Bootstrapped with create-react-app.</p>
+                            <em><p>View the code <a href="https://github.com/tmonfre/portfolio-website" target="_blank" rel="noopener noreferrer">here.</a></p></em>
+                            <ImgurEmbed id="a/4DFWxXV" />
                         </div>
                     </div>
 
@@ -33,10 +33,10 @@ class Projects extends Component {
                         </div>
 
                         <div className="dev-sample-area">
-                            <h2>Portfolio Website</h2>
-                            <p>Website built with React that displays my resume and portfolio information. Page contents are loaded with react-router. Bootstrapped with create-react-app.</p>
-                            <em><p>View the code <a href="https://github.com/tmonfre/portfolio-website" target="_blank" rel="noopener noreferrer">here.</a></p></em>
-                            <ImgurEmbed id="a/4DFWxXV" />
+                            <h2>DALI Lab Members</h2>
+                            <p>Personal project built with React that queries and displays data on DALI Lab Members. Users can filter, sort, and search. JSX is compiled using webpack and babel.</p>
+                            <em><p>View the code <a href="https://github.com/tmonfre/dali-dev-challenge" target="_blank" rel="noopener noreferrer">here.</a> Visit the website <a href="http://dali-dev-challenge.surge.sh" target="_blank" rel="noopener noreferrer">here.</a></p></em>
+                            <ImgurEmbed id="a/JbnSF7M" />
                         </div>
 
                         <div className="dev-sample-area">

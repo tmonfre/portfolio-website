@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashRouter } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import ScrollToTop from './ScrollToTop.js'
 import NavBar from './NavBar.js'
 import Footer from './Footer.js'
@@ -10,6 +11,10 @@ import Projects from './Projects.js';
 import Classes from './Classes.js';
 import Design from './Design.js';
 import '../styles/App.css';
+
+// google analytics
+ReactGA.initialize('UA-135923598-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
     constructor(props) {

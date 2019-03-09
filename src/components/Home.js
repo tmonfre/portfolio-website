@@ -33,8 +33,8 @@ class Home extends Component {
                             <center>
                                 <p>About Me</p>
                                 <ul>
-                                    <li>Work Experience</li>
-                                    <li>Skills & Abilities</li>
+                                    <Link to="/aboutme"><li>Work Experience</li></Link>
+                                    <Link to="/aboutme"><li>Skills & Abilities</li></Link>
                                 </ul>
                             </center>
                         </div>
