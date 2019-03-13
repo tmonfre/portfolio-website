@@ -23,7 +23,7 @@ class Home extends Component {
                     <div id="about-me-text">
                         <p>Sophomore at Dartmouth College studying Computer Science and Quantitative Social Science.</p><br></br>
                         <p>I have experience in web development, data visualization, and workflow/process optimization. My interests include leveraging the power of technology to solve meaningful problems and the impact of data analytics on daily life. I'm currently seeking web/software development internship opportunities for Fall 2019.</p><br></br>
-                        <p>Read more about me <strong><Link to="/aboutme">here</Link></strong> or download my full resume <strong><a href="https://drive.google.com/file/d/1uJMslqlzKiLzVONBaDUXBOwHZExmRiDE/view?usp=sharing">here.</a></strong></p>
+                        <p>Read more about me <strong><Link to="/aboutme">here</Link></strong> or download my full resume <strong><a href="https://drive.google.com/file/d/1444HKa_QUPWPLeKjPhGdXTRo9bue2rlg/view?usp=sharing">here.</a></strong></p>
                     </div>
                 </div>
 
@@ -33,24 +33,22 @@ class Home extends Component {
                             <center>
                                 <p>About Me</p>
                                 <ul>
-                                    <Link to="/aboutme"><li>Work Experience</li></Link>
-                                    <Link to="/aboutme"><li>Skills & Abilities</li></Link>
+                                    <Link to="/aboutme" className="hash-link"><li id="work-experience-link">Work Experience</li></Link>
+                                    <Link to="/aboutme" className="hash-link"><li id="skills-abilities-link">Skills & Abilities</li></Link>
                                 </ul>
                             </center>
                         </div>
                     </Link>
 
-                    <Link to="/projects">
-                        <div className="preview-box projects-box" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                            <center>
-                                <p>Projects</p>
-                                <ul>
-                                    <Link to="/projects"><li>Development</li></Link>
-                                    <Link to="/design"><li>Design</li></Link>
-                                </ul>
-                            </center>
-                        </div>
-                    </Link>
+                    <div className="preview-box projects-box" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+                        <center>
+                            <Link to="/projects" id="projects-box-header"><p>Projects</p></Link>
+                            <ul>
+                                <Link to="/projects"><li>Samples</li></Link>
+                                <a href="https://github.com/tmonfre" target="_blank"><li>GitHub</li></a>
+                            </ul>
+                        </center>
+                    </div>
 
                     <a href='mailto:thomas.a.monfre.21@dartmouth.edu'>
                         <div className="preview-box contact-me-box" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
@@ -65,6 +63,13 @@ class Home extends Component {
                 </div>
             </div>
         )
+    }
+
+    componentDidMount() {
+        $(".hash-link").on("click", (e) => {
+            var hashLinkID = e.target.id.slice(0,-5)
+            setTimeout(function(){ animateScroll(hashLinkID); }, 500);
+        });
     }
 
     handleMouseEnter(event) {
@@ -117,6 +122,12 @@ class Home extends Component {
             }
         }, 750); // 750 sets a box to wait 0.75 sec after mouse leaves until roll up
     }
+}
+
+function animateScroll(hashLinkID) {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#" + hashLinkID).offset().top - 75
+    }, 1000)
 }
 
 export default Home

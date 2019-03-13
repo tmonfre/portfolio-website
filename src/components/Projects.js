@@ -52,7 +52,6 @@ class Projects extends Component {
                 </div>
                 <div id="more-info">
                     <h3>Please <a href="mailto:thomas.a.monfre.21@dartmouth.edu">contact me</a> for Python, Java, and MatLab coding examples.</h3>
-                    <h3 id="last">See <Link to="/design">here</Link> for design samples.</h3>
                 </div>
             </div>
         )

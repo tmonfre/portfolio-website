@@ -31,14 +31,14 @@ class AboutMe extends Component {
                     </div>
 
                     <div className="content-section">
-                        <h3>Work Experience</h3>
+                        <h3 id="work-experience">Work Experience</h3>
 
                         <div className="logo-image">
                             <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer"><img src={require("../assets/aboutme/dali_logo.png")} width="75" height="75" alt="DALI Lab"></img></a>
                         </div>
 
                         <div className="job">
-                            <p className="job-title"><u><strong><a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer">Developer/Project Manager</a></strong><a href="http://dali.dartmouth.edu/" target="_blank"> — Dartmouth Applied Learning & Innovation Lab</a></u></p>
+                            <p className="job-title"><u><strong><a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer">Software Developer</a></strong><a href="http://dali.dartmouth.edu/" target="_blank"> — Dartmouth Applied Learning & Innovation Lab</a></u></p>
                             <p className="duration">September, 2018 - Present</p>
                             <div style={{clear:"both"}}></div>
                             <p>Develop technological solutions for start-ups, entrepreneurs, and researchers in this experiential learning lab at Dartmouth. Create websites, apps, and software to solve problems for partners, and coordinate 3-5 person teams as a project manager. Most recent project visualized and predicted movements of an invasive species on the east coast. Website was built with React.js, and used Chart.js for data visualization. Predictive model (written by partners) ran in R.</p>
@@ -114,7 +114,7 @@ class AboutMe extends Component {
                     </div>
 
                     <div className="content-section line-break" name="skills">
-                        <h3>Skills, Abilities, and Programming Languages/Frameworks</h3>
+                        <h3 id="skills-abilities">Skills, Abilities, and Programming Languages/Frameworks</h3>
 
                         <div className="programming-languages">
                             <div className="flex-item">

@@ -110,6 +110,10 @@
     font-family: 'Open Sans', arial, serif;
 }
 
+#projects-box-header:hover {
+    text-decoration: none;
+}
+
 
 /* ----------- Tablet  ----------- */
 
