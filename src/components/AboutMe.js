@@ -17,7 +17,7 @@ class AboutMe extends Component {
                         <p className="school-title"><a href="http://www.dartmouth.edu" target="_blank" rel="noopener noreferrer">Dartmouth College</a>  —  Hanover, NH</p>
                         <p className="duration">September, 2017 — Present</p>
                         <div style={{clear:"both"}}></div>
-                        <p id="gpa_left">Cumulative GPA: 3.83</p>
+                        <p id="gpa_left">Cumulative GPA: 3.87</p>
                         <div id="classes-mobile-drop"></div>
                         <Link to="/classes"><p id="classes-link"><strong>Classes</strong></p></Link>
                         <div style={{clear:"both"}}></div>
@@ -68,7 +68,7 @@ class AboutMe extends Component {
                             <p className="job-title"><u><strong><a href="https://web.cs.dartmouth.edu/" target="_blank" rel="noopener noreferrer">Teaching Assistant</a></strong><a href="https://web.cs.dartmouth.edu/" target="_blank"> — Dartmouth College Department of Computer Science</a></u></p>
                             <p className="duration">March, 2018 - June, 2018</p>
                             <div style={{clear:"both"}}></div>
-                            <p>Served as a teaching assistant for an introductory computer science course taught in Python. Taught weekly lab sections, held regular office hours, and graded assignments/exams. Will be serving in this capacity for a Data Structures and Algorithms course in the spring.</p>
+                            <p>Served as a teaching assistant for an introductory computer science course taught in Python. Taught weekly lab sections, held regular office hours, and graded assignments/exams. Held this position in the spring term of my freshman and sophomore years.</p>
                         </div>
 
                         <div style={{clear:"both"}}></div>
@@ -125,6 +125,7 @@ class AboutMe extends Component {
                                     <li>JavaScript</li>
                                     <li>React.js</li>
                                     <li>Node.js/Express.js</li>
+                                    <li>React Native</li>
                                     <li>R</li>
                                     <li>MatLab</li>
                                     <li>NumPy/SciPy/scikit-learn for ML</li>
@@ -133,20 +134,9 @@ class AboutMe extends Component {
                             </div>
 
                             <div className="flex-item">
-                                <p className="content-title">Working Knowledge</p>
-                                <ul>
-                                    <li>Swift</li>
-                                    <li>SQL</li>
-                                </ul>
-                            </div>
-
-                            <div className="flex-item">
                                 <p className="content-title">Learning</p>
                                 <ul>
-                                    <li>C / C++</li>
-                                    <li>Redux</li>
-                                    <li>Angular.js</li>
-                                    <li>Vue.js</li>
+                                    <li>Swift</li>
                                 </ul>
                             </div>
                         </div>
@@ -164,7 +154,7 @@ class AboutMe extends Component {
                         <h3>Awards</h3>
                         <ul>
                             <li>AP Scholar with Distinction</li>
-                            <li>Dartmouth College Academic Honor List - top 15% of all students</li>
+                            <li>Dartmouth College Academic Honor List — top 15% of all students</li>
                             <li>National Merit Scholarship Finalist</li>
                         </ul>
                     </div>
