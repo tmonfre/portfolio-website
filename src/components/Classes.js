@@ -10,7 +10,7 @@ class Classes extends Component {
     render() {
         return(
             <div id="classes">
-                <h3>Current Classes</h3>
+                <h3>Current Classes (Spring 2019)</h3>
 
                 <div className="course-dropdown" onClick={this.handleTitleClick}>
                     <p className="title">CS 52: Full-Stack Web Development</p>
@@ -27,7 +27,26 @@ class Classes extends Component {
                     <p className="description">Is the Earth unique, or are there other planets in the universe which can support life? This question has been pondered for thousands of years, and humanity is now on the cusp of being able to answer this question. This course will examine the question of planetary habitability, focusing on the processes which made the Earth habitable, and the likelihood of finding other habitable planets in the universe. Topics to be covered include the creation of the elements, the formation of structure in the universe, planetary system formation, the habitability of Earth and other bodies in the solar system, the future habitability of Earth, and the prospects of finding habitable planets around other stars.</p>
                 </div>
 
-                <br></br>
+                <br />
+
+                <h3>Upcoming Classes (Summer 2019)</h3>
+
+                <div className="course-dropdown" onClick={this.handleTitleClick}>
+                    <p className="title">CS 50: Software Design and Implementation</p>
+                    <p className="description">Techniques for building large, reliable, maintainable, and understandable software systems. Topics include UNIX tools and filters, programming in C, software testing, debugging, and teamwork in software development. Concepts are reinforced through a small number of medium-scale programs and one team programming project.</p>
+                </div>
+
+                <div className="course-dropdown" onClick={this.handleTitleClick}>
+                    <p className="title">QSS 17: Data Visualization</p>
+                    <p className="description">Big data are everywhere – in government, academic research, media, business, and everyday life. To tell the stories hidden behind blizzards of data, effective visualization is critical. This course primarily teaches R, a free software environment for statistical computing and graphics, which is widely regarded as one of the most versatile and flexible tools for data visualization and, more broadly, data science. Students completing the course will know how to “wrangle” and visualize data critical to their scientific endeavors.</p>
+                </div>
+
+                <div className="course-dropdown" onClick={this.handleTitleClick}>
+                    <p className="title">PHYS 3: General Physics</p>
+                    <p className="description">The fundamental laws and phenomena of mechanics, heat, wave motion, and sound, including relativistic concepts.</p>
+                </div>
+
+                <br />
 
                 <h3>Relevant Past Courses</h3>
 
@@ -60,6 +79,8 @@ class Classes extends Component {
                     <p className="title">CS 74: Machine Learning and Statistical Data Analysis</p>
                     <p className="description">This course provides an introduction to statistical modeling and machine learning. Topics include learning theory, supervised and unsupervised machine learning, statistical inference and prediction, and data mining. Applications of these techniques to a wide variety of data sets will be described.</p>
                 </div>
+
+                <br />
 
                 <div className="course-dropdown" onClick={this.handleTitleClick}>
                     <p className="title">ECON 1: The Price System: Analysis, Problems, and Policies</p>
