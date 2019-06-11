@@ -1,31 +1,56 @@
 {
   "name": "portfolio-website",
-  "version": "0.1.0",
-  "private": true,
+  "version": "2.0.0",
+  "description": "portfolio website for thomas monfre",
+  "main": "src/index.js",
+  "repository": "https://github.com/tmonfre/portfolio-website",
+  "author": "Thomas Monfre <tmonfre@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "test": "eslint src/**.js",
+    "build": "yarn clean; NODE_ENV=production webpack --colors",
+    "clean": "rimraf dist",
+    "deploy": "yarn build; surge -p dist -d thomasmonfre.me; yarn clean"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.5.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "surge": "^0.20.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
   "dependencies": {
+    "axios": "^0.18.0",
     "jquery": "^3.3.1",
-    "prop-types": "^15.6.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-imgur-embed": "^0.0.4",
-    "react-router-dom": "^4.3.1",
-    "react-router-hash-link": "^1.2.1",
-    "react-scripts": "2.1.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0"
+  }
 }
