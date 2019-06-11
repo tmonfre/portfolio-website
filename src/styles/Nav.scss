@@ -3,6 +3,7 @@
     width: 100%;
     background-color: #3d84de;
     position: fixed;
+    z-index: 10000;
 }
 
 #name-area {
@@ -28,6 +29,7 @@
     float: right;
     padding-top: 12px;
     padding-right: 20px;
+    display: block;
 }
 
 #nav-area a {
@@ -130,6 +132,7 @@
         float: right;
         padding-right: 30px;
         padding-top: 20px;
+        cursor: pointer;
     }
 
     #mobile-nav-break {
@@ -155,10 +158,4 @@
         margin-left: 35px;
         margin-right: 35px;
     }
-
-    .main-content {
-        padding: 10px;
-        height: 100%;
-    }
-
 }

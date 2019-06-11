@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/NavBar.css';
+import '../styles/Nav.scss';
 
 const $ = require('jquery');
 

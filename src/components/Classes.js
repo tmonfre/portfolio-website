@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/Classes.css';
+import '../styles/Classes.scss';
 
 const $ = require('jquery');
 

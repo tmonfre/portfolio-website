@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Home.css';
+import '../styles/Home.scss';
 
 const $ = require('jquery');
 
@@ -129,7 +129,7 @@ class Home extends Component {
               <center>
                 <p>Contact Me</p>
                 <ul>
-                  <li><em>Click here to send me an email!</em></li>
+                  <li><em>Click here to send me an email</em></li>
                 </ul>
               </center>
             </div>

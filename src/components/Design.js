@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgurEmbed from 'react-imgur-embed';
-import '../styles/Design.css';
+import '../styles/Design.scss';
 
 const Design = () => {
   return (

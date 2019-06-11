@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgurEmbed from 'react-imgur-embed';
-import '../styles/Projects.css';
+import '../styles/Projects.scss';
 
 const Projects = () => {
   return (
