@@ -50,7 +50,9 @@
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-imgur-embed": "^0.0.4",
+    "react-photo-gallery": "^7.0.2",
     "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "react-router-transition": "^1.3.0"
   }
 }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Gallery from 'react-photo-gallery';
 import '../styles/Home.scss';
+import photos from '../assets/home/photo-gallery';
 
 const $ = require('jquery');
 
@@ -10,7 +12,7 @@ function animateScroll(hashLinkID) {
   }, 1000);
 }
 
-class Home extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props);
     this.boxLiveCount = 0;
@@ -82,7 +84,7 @@ class Home extends Component {
         <div id="about-me-preview">
           <div id="circle">
             <Link to="/aboutme">
-              <img src={require('../assets/index/profile_photo.png')} alt="me" height="300" width="300" />
+              <img src={require('../assets/home/profile_photo.png')} alt="me" height="300" width="300" />
             </Link>
           </div>
           <div id="about-me-text">
@@ -99,6 +101,10 @@ class Home extends Component {
             <br />
             <p>Read more about me <Link to="/aboutme">here</Link> or download my full resume <a href="http://tiny.cc/thomas-monfre-resume">here.</a></p>
           </div>
+        </div>
+
+        <div id="photo-gallery">
+          <Gallery photos={photos} />
         </div>
 
         <div id="content-preview-area" ref={this.contentPreviewArea}>
@@ -139,5 +145,3 @@ class Home extends Component {
     );
   }
 }
-
-export default Home;

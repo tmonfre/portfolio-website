@@ -12,7 +12,7 @@
     height: 300px;
     border-radius: 50%;
     border: 3px solid #413f3f;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-right: 80px;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -48,7 +48,7 @@
     background-color: white;
     padding-top: 30px;
     transition: height ease 0.5s;
-    margin-left: 30px;
+    margin-left: 20px;
     transition-duration: 1s;
     margin-bottom: 20px;
 }
@@ -113,6 +113,10 @@
 
 #projects-box-header:hover {
     text-decoration: none;
+}
+
+#photo-gallery {
+    margin: 40px;
 }
 
 
