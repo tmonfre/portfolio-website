@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+#app-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 .container {
     width: 1050px;
     height: auto;
@@ -31,12 +38,21 @@ a:hover {
 .main-content {
     background-color: white;
     padding: 90px 20px 30px 20px;
-    height: 100%;
-    min-height: calc(100vh - 330px);
+    flex: 1 0 auto;
+}
+
+.route-wrapper {
+    position: relative;
+}
+
+.route-wrapper > .main-content {
+    position: absolute;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1080px) {
     .container {
         width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }

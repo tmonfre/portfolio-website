@@ -1,93 +1,84 @@
-.resumeInformation h3 {
-    padding-top: 20px;
-    padding-bottom: 15px;
+.school {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    .school-left {
+        text-align: left;
+    }
+
+    .school-right {
+        text-align: right;
+
+        #classes-link {
+            color: #3d84ee;
+            font-style: italic;
+        }
+        
+        #classes-link:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
-.resumeInformation p {
-    font-family: 'Open Sans', arial, serif;
-    line-height: 25px;
-    margin-bottom: 5px;
+.resume-information {
+    h3 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    p {
+        font-family: 'Open Sans', arial, serif;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    li {
+        list-style: none;
+        font-family: 'Open Sans', arial, serif;
+        margin-bottom: 2px;
+    }
 }
 
-#classes-link {
-    color: #3d84ee;
-}
-
-#classes-link:hover {
-    text-decoration: underline;
-}
-
-.resumeInformation li {
-    list-style: none;
-    font-family: 'Open Sans', arial, serif;
-    margin-bottom: 2px;
-}
-
-.logo-image {
-    float: left;
-    width: 75px;
-    height: 75px;
-    padding-right: 20px;
+.company {
+    display: flex;
+    justify-content: space-between;
 }
 
 .job {
-    float: left;
-    width: 905px;
+    margin-bottom: 20px;
+
+    .job-title {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        .duration {
+            text-align: right;
+        }
+    }
 }
 
-.activity {
-    width: 1000px;
-}
-
-.job-title, .school-title {
-    float: left;
-    padding-bottom: 5px;
-}
-
-.duration {
-    float: right;
+.logo-image {
+    width: 75px;
+    height: 75px;
+    padding-right: 20px;
 }
 
 .too-high {
     padding-top: 10px;
 }
 
-.content-section {
-    padding-bottom: 10px;
-}
-
-.content-section a {
-    font-weight: 400;
-    font-style: italic;
-}
-
 .no-italic p {
     font-style: normal;
 }
 
-#gpa_left {
-    float: left;
-}
-
-#classes-link {
-    float: right;
-}
-
-#additional-activities {
-    margin-bottom: 5px;
-}
-
 .no-link a {
     text-decoration: none;
-}
-
-.school-header {
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.mainContent {
-    padding-bottom: 50px;
 }
 
 .programming-languages {
@@ -121,23 +112,7 @@
     margin-bottom: 10px;
 }
 
-/* MOBILE DESIGN */
-
-
-/* ----------- Smartphone/Tablet ----------- */
-
 @media only screen and (min-width: 320px) and (max-width: 1080px) {
-    .job {
-        width: auto;
-    }
-
-    .activity {
-        width: auto;
-    }
-
-    .job-title, .school-title {
-        float: none;
-    }
 
     .content-section a {
         font-style: normal;
@@ -149,19 +124,6 @@
 
     .no-italic p {
         font-style: italic;
-    }
-
-    .duration {
-        float: none;
-        font-style: italic;
-    }
-
-    #classes-link {
-        float: none;
-    }
-
-    #classes-mobile-drop {
-        clear:both;
     }
 
     .logo-image {
@@ -180,5 +142,14 @@
 @media only screen and (min-width: 320px) and (max-width: 573px) {
     .programming-languages {
         display: block;
+    }
+
+    .job-title, .school {
+        flex-direction: column;
+        
+    }
+
+    .school-right, .duration, #classes-link {
+        text-align: left !important;
     }
 }
