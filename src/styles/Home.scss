@@ -12,7 +12,7 @@
     height: 300px;
     border-radius: 50%;
     border: 3px solid #413f3f;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-right: 80px;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -216,10 +216,17 @@
     }
 
     #about-me-text {
-        margin: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
         margin-bottom: 0px;
         -ms-grid-row: 2;
         -ms-grid-column: 1;
+    }
+
+    #photo-gallery {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #content-preview-area {

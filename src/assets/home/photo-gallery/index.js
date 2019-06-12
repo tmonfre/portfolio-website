@@ -45,8 +45,8 @@ const photos = [
     height: 4,
   },
   {
-    src: require('./insta/IMG_2584.jpg'),
-    width: 3,
+    src: require('./IMG_1501.jpg'),
+    width: 4,
     height: 3,
   },
   {

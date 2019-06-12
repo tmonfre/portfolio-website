@@ -44,21 +44,24 @@ class Nav extends Component {
 
   render() {
     return (
-      <div id="header" ref={this.header}>
+      <div id="header">
         <div className="container">
-          <div id="name-area">
-            <Link to="/"><h1>Thomas Monfre</h1></Link>
+          <div id="header-content">
+            <div id="name-area">
+              <Link to="/"><h1>Thomas Monfre</h1></Link>
+            </div>
+            <i className="fas fa-bars" id="mobile-nav-drop-down" onClick={this.handleDropDownClick} />
+            <div id="nav-area">
+              <Link to="/" onClick={this.handleScroll}>Home</Link>
+              <Link to="/aboutme" id="middle" onClick={this.handleScroll}>About Me</Link>
+              <Link to="/projects" onClick={this.handleScroll}>Projects</Link>
+            </div>
           </div>
-          <div id="mobile-nav-drop-down">
-            <img id="drop-down-button" src={require('../assets/nav-drop-down.png')} alt="hamburger drop down icon" onClick={this.handleDropDownClick} />
-          </div>
-          <div id="mobile-nav-break" />
-          <div id="nav-area" ref={this.navArea}>
+          <div id="nav-area-mobile" ref={this.navArea}>
             <Link to="/" onClick={this.handleScroll}>Home</Link>
             <Link to="/aboutme" id="middle" onClick={this.handleScroll}>About Me</Link>
             <Link to="/projects" onClick={this.handleScroll}>Projects</Link>
           </div>
-          <div style={{ clear: 'both' }} />
         </div>
         <div id="header-bar" />
       </div>
