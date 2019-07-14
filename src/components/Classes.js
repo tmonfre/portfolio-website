@@ -96,7 +96,7 @@ class Classes extends Component {
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 52: Full-Stack Web Development</p>
+              <p className="title">CS 52: Full-Stack Web Development <span className="citation">*</span></p>
               <p className="description">
                 The Web is a powerful delivery tool for complex real-time applications.
                 This is an introduction to full stack Web application development — the approach of integrating numerous techniques and technologies to build modern Web applications.
@@ -150,7 +150,7 @@ class Classes extends Component {
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">GOVT 7.3: Media and Politics</p>
+              <p className="title">GOVT 7.3: Media and Politics <span className="citation">*</span></p>
               <p className="description">
                 The variety of media sources covering politics has expanded substantially in recent years: online-only news, satire-based news,
                 social media forums such as blogs, and other types of “new media” now exist alongside more traditional media sources such as
@@ -164,6 +164,9 @@ class Classes extends Component {
                 term; additionally, a class-produced blog about the media and politics will give us the opportunity to contrast formal and informal
                 genres of writing and argumentation.
               </p>
+            </div>
+            <div id="citation-explanation">
+              <p><span className="citation">*</span> indicates a merit citation</p>
             </div>
           </Bounce>
         </div>

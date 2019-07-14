@@ -13,7 +13,7 @@ const AboutMe = () => {
           <p>
           Rising junior at Dartmouth studying Computer Science + Quantitative Social Science. Have experience in full stack web development, software engineering, and data visualization.
           Passionate about leveraging the power of technology to solve meaningful problems and building a data-driven world.
-          Currently seeking software development/full stack webdev internships for Fall 2019.
+          Currently seeking software engineering/full stack webdev internships for Summer 2020.
           </p>
         </div>
 
