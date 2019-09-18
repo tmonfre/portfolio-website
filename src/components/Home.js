@@ -11,7 +11,7 @@ const $ = require('jquery');
 
 function animateScroll(hashLinkID) {
   $([document.documentElement, document.body]).animate({
-    scrollTop: $(`#${hashLinkID}`).offset().top - 75,
+    scrollTop: $(`#${hashLinkID}`).offset().top - 225,
   }, 1000);
 }
 
@@ -111,8 +111,9 @@ export default class Home extends Component {
             </div>
             <div id="about-me-text">
               <p>
-                Rising junior at Dartmouth College studying Computer Science + Quantitative Social Science. Full-Stack Software Developer
-                @ the <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer">DALI Lab.</a>
+                Junior at Dartmouth College studying Computer Science + Quantitative Social Science. Software Engineering Intern
+                at <a href="https://www.disneystreaming.com/" target="_blank" rel="noopener noreferrer">Disney Streaming Services</a>,
+                and Full-Stack Software Engineer at the <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer">DALI Lab.</a>
               </p>
               <br />
               <p>

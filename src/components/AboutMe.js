@@ -11,7 +11,7 @@ const AboutMe = () => {
         <div className="content-section">
           <h3>Summary</h3>
           <p>
-          Rising junior at Dartmouth studying Computer Science + Quantitative Social Science. Have experience in full stack web development, software engineering, and data visualization.
+          Junior at Dartmouth College studying Computer Science + Quantitative Social Science. Have experience in full stack web development, software engineering, and data visualization.
           Passionate about leveraging the power of technology to solve meaningful problems and building a data-driven world.
           Currently seeking software engineering/full stack webdev internships for Summer 2020.
           </p>
@@ -23,7 +23,7 @@ const AboutMe = () => {
           <div className="school">
             <div className="school-left">
               <p className="school-title"><a href="http://www.dartmouth.edu" target="_blank" rel="noopener noreferrer">Dartmouth College</a>  —  Hanover, NH</p>
-              <p id="gpa_left">Cumulative GPA: 3.87</p>
+              <p id="gpa_left">Cumulative GPA: 3.89</p>
             </div>
 
             <div className="school-right">
@@ -48,6 +48,29 @@ const AboutMe = () => {
 
           <div className="company">
             <div className="logo-image">
+              <a href="https://www.disneystreaming.com" target="_blank" rel="noopener noreferrer">
+                <img src={require('../assets/aboutme/disney_streaming.png')} width="75" height="75" alt="Disney Streaming Services" />
+              </a>
+            </div>
+
+            <div className="job">
+              <div className="job-title">
+                <p>
+                  <a href="https://www.disneystreaming.com" target="_blank" rel="noopener noreferrer">Software Engineering Intern  — Disney Streaming Services</a>
+                </p>
+                <p className="duration">September, 2019 - Present</p>
+              </div>
+              <p>
+              Interning on the Native Client Platform – Connected Devices team. Building developer tools with C# and the .NET Core
+              Framework that allow users to create new NCP projects from the command line. Supporting the Connected Devices team
+              in launching Disney+. Working in a fast-paced, agile environment with daily stand-ups, and monitored process flow.
+              </p>
+
+            </div>
+          </div>
+
+          <div className="company">
+            <div className="logo-image">
               <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer"><img src={require('../assets/aboutme/dali_logo.png')} width="75" height="75" alt="DALI Lab" /></a>
             </div>
 
@@ -59,12 +82,12 @@ const AboutMe = () => {
                 <p className="duration">September, 2018 - Present</p>
               </div>
               <p>
-              Develop full stack websites and mobile apps for start-ups and researchers in this experiential learning lab at Dartmouth.
-              Have experience building flexible, large-scale frontends with modern frameworks such as React.js and Angular.js, and experience
-              building scalable backends with Node.js/Express.js and NoSQL (mongoDB) databases.
-              Have experience building RESTful APIs and integrating full stack apps with cloud computing services (such as Google Cloud Platform, Firebase, and IBM Watson).
-              Have experience working in agile, fast-paced, team environments that are flexible to product changes from partners.
-              Peer mentor for React and Node – hold office hours and workshops. Partner Relations Lead – help source unique projects.
+              Develop full stack websites and apps for start-ups and researchers in this experiential learning lab at Dartmouth.
+              Have experience building flexible, large-scale frontends with modern frameworks such as React, and experience building scalable
+              backends with Node/Express servers and NoSQL (mongoDB) databases. Have experience building RESTful APIs and integrating full stack
+              apps with cloud computing services (such as Google Cloud Platform and IBM Watson). Have experience working in agile, fast-paced,
+              team environments that are flexible to product changes from partners. Peer mentor for React and Node – hold office hours and workshops.
+              Partner Relations Lead – help source unique projects.
               </p>
 
             </div>
@@ -113,27 +136,6 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-
-          <div className="company">
-            <div className="logo-image">
-              <a href="http://www.qualityinsulators.com/" target="_blank" rel="noopener noreferrer">
-                <img src={require('../assets/aboutme/QI_logo.png')} width="75" height="75" alt="Quality Insulators" />
-              </a>
-            </div>
-
-            <div className="job">
-              <div className="job-title">
-                <p>
-                  <a href="http://www.qualityinsulators.com/" target="_blank" rel="noopener noreferrer">Technology Development Intern  — Quality Insulators, Inc.</a>
-                </p>
-                <p className="duration">June, 2017 - August, 2017</p>
-              </div>
-              <p>
-              Integrated technology into business workflows. Wrote Python/VBA scripts to eliminate time-consuming, paper-based tasks.
-              Implemented a digitalized payroll system that saved 5-6 hours in the weekly reporting process.
-              </p>
-            </div>
-          </div>
         </div>
 
         <div className="content-section">
@@ -178,16 +180,16 @@ const AboutMe = () => {
               <ul>
                 <li>Java</li>
                 <li>JavaScript</li>
+                <li>C</li>
+                <li>C#</li>
                 <li>Python</li>
                 <li>React.js</li>
-                <li>Node.js/Express.js</li>
+                <li>Node/Express.js</li>
                 <li>Redux</li>
                 <li>HTML/CSS/SASS</li>
                 <li>React Native</li>
                 <li>R</li>
                 <li>MatLab</li>
-                <li>NumPy/SciPy/scikit-learn for ML</li>
-                <li>Mocha/Chai for unit testing</li>
               </ul>
             </div>
 
@@ -196,15 +198,13 @@ const AboutMe = () => {
               <ul>
                 <li>Ruby on Rails</li>
                 <li>SQL</li>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
                 <li>Swift</li>
               </ul>
             </div>
           </div>
           <ul>
             <li>Experienced with web and mobile application development, information retrieval, and system design.</li>
-            <li>Strong understanding of object-oriented programming (particularly in Java) and algorithms, gathered from coursework & projects.</li>
+            <li>Strong understanding of object-oriented programming and algorithms, gathered from coursework & projects.</li>
             <li>Strong understanding of RESTful APIs, test-driven development, and managing/updating documentation.</li>
             <li>Strong understanding of the fundamentals of computer science. Excited about tackling large, open-ended problems.</li>
 
@@ -218,7 +218,7 @@ const AboutMe = () => {
         <div className="content-section">
           <h3>Awards</h3>
           <ul>
-            <li>Dartmouth College Academic Honor List — top 15% of all students</li>
+            <li>Dartmouth College Academic Honor List</li>
             <li>Merit Citation in CS 52: Full Stack Web Development</li>
             <li>Merit Citation in Gov 7: Media and Politics</li>
           </ul>
