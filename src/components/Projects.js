@@ -7,7 +7,7 @@ import '../styles/Projects.scss';
 const Projects = () => {
   return (
     <div id="projects">
-      <Fade up>
+      <Fade>
         <div className="dev-samples">
           <div className="left">
             <div className="dev-sample-area">

@@ -7,7 +7,7 @@ import '../styles/AboutMe.scss';
 const AboutMe = () => {
   return (
     <div className="resume-information">
-      <Fade up>
+      <Fade>
         <div className="content-section">
           <h3>Summary</h3>
           <p>

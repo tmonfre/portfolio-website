@@ -102,7 +102,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Fade up>
+        <Fade>
           <div id="about-me-preview">
             <div id="circle">
               <Link to="/aboutme">

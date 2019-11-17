@@ -7,7 +7,7 @@ import '../styles/Design.scss';
 const Design = () => {
   return (
     <div id="design">
-      <Fade up>
+      <Fade>
         <div className="design-samples">
           <div className="left">
             <h2>Relevant Radio Internship</h2>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Bounce } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 import '../styles/Classes.scss';
 
@@ -14,10 +14,42 @@ class Classes extends Component {
     render() {
       return (
         <div id="classes">
-          <Bounce left>
-            {/* <h3>Current Classes (Summer 2019)</h3>
-            <br /> */}
+          <Fade>
+            <h3>Upcoming Classes (Winter 2020)</h3>
 
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">CS 65: Smartphone Programming</p>
+              <p className="description">
+                This course teaches students how to design, implement, test, debug and publish smartphone applications.
+                Topics include development environment, phone emulator, key programming paradigms, UI design including views and activities,
+                data persistence, messaging and networking, embedded sensors, location based services (e.g., Google Maps), cloud programming,
+                and publishing applications. Concepts are reinforced through a set of weekly programming assignments and group projects.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">QSS 18: Introduction to Game Theory</p>
+              <p className="description">
+                Game theory is used to study how individuals and organizations interact strategically, and this course introduces game theory with a focus
+                on political science applications. Game theory is a standard tool in the social sciences, and insights from game theory are essential to
+                understanding many facets of politics, such as political party competition, legislative politics, international relations, and the provision
+                of public goods. Among other topics, the course will cover normal and extensive form games, Nash equilibria, imperfect information, mixed
+                strategies, and, if time permits, the basics of games with incomplete information. A course in game theory will change the way that one views
+                the world.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">GOVT 30.04: Political Misinformation & Conspiracy Theories</p>
+              <p className="description">
+                Why do people hold false or unsupported beliefs about politics and why are so those beliefs so hard to change? This course will explore the
+                psychological factors that make people vulnerable to political misinformation and conspiracy theories and the reasons that corrections so
+                often fail to change their minds. We will also analyze how those tendencies are exploited by political elites and consider possible approaches
+                that journalists and civic reformers could employ to combat misperceptions.
+              </p>
+            </div>
+
+            <br />
             <h3>Relevant Past Courses</h3>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
@@ -162,7 +194,7 @@ class Classes extends Component {
             <div id="citation-explanation">
               <p><span className="citation">*</span> indicates a merit citation</p>
             </div>
-          </Bounce>
+          </Fade>
         </div>
       );
     }
