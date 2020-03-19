@@ -15,37 +15,49 @@ class Classes extends Component {
       return (
         <div id="classes">
           <Fade>
-            <h3>Upcoming Classes (Winter 2020)</h3>
+            <h3>Upcoming Classes (Spring 2020)</h3>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 65: Smartphone Programming</p>
+              <p className="title">CS 61: Database Systems</p>
               <p className="description">
-                This course teaches students how to design, implement, test, debug and publish smartphone applications.
-                Topics include development environment, phone emulator, key programming paradigms, UI design including views and activities,
-                data persistence, messaging and networking, embedded sensors, location based services (e.g., Google Maps), cloud programming,
-                and publishing applications. Concepts are reinforced through a set of weekly programming assignments and group projects.
+              This course studies the management of large bodies of data or information. This includes schemes for the representation,
+              manipulation, and storage of complex information structures as well as algorithms for processing these structures efficiently
+              and for retrieving the information they contain. This course will teach the student techniques for storage allocation and deallocation,
+              retrieval (query formulation), and manipulation of large amounts of heterogeneous data. Students are expected to program and become
+              involved in a project in which they study important aspects of a database system: ways to organize a distributed database shared by
+              several computers; transactions that are processed locally and globally; robustness guarantees of the stored data against failure;
+              security and data integrity guarantees from unauthorized access; privacy; object-oriented schemes for multimedia data; indexing,
+              hashing, concurrency control, data mining, data warehousing, mobile databases and storage file structures.
               </p>
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">QSS 18: Introduction to Game Theory</p>
+              <p className="title">QSS 30.03/GOVT 83.21: Experiments in Politics</p>
               <p className="description">
-                Game theory is used to study how individuals and organizations interact strategically, and this course introduces game theory with a focus
-                on political science applications. Game theory is a standard tool in the social sciences, and insights from game theory are essential to
-                understanding many facets of politics, such as political party competition, legislative politics, international relations, and the provision
-                of public goods. Among other topics, the course will cover normal and extensive form games, Nash equilibria, imperfect information, mixed
-                strategies, and, if time permits, the basics of games with incomplete information. A course in game theory will change the way that one views
-                the world.
+              This class is a lab-style seminar in which we will design, field, and analyze an experimental study of political misperceptions.
+              Our goal is to publish a scholarly article about our findings in a peer-reviewed journal of political science-an ambitious project
+              that will require a substantial commitment from each student. Flexibility will also be essential since the course will evolve during
+              the semester based on the needs of the project.
               </p>
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">GOVT 30.04: Political Misinformation & Conspiracy Theories</p>
+              <p className="title">QSS 41: Analysis of Social Networks</p>
               <p className="description">
-                Why do people hold false or unsupported beliefs about politics and why are so those beliefs so hard to change? This course will explore the
-                psychological factors that make people vulnerable to political misinformation and conspiracy theories and the reasons that corrections so
-                often fail to change their minds. We will also analyze how those tendencies are exploited by political elites and consider possible approaches
-                that journalists and civic reformers could employ to combat misperceptions.
+              Students will gather and analyze data on a variety of networks (institutions, communities, elites, friendship systems, kinship systems,
+              trade networks, and the like). Techniques of analysis may include graph theory, text analysis, multidimensional scaling and cluster analysis,
+              and a variety of special models. Not limited to students in the major.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">ECON 24: Development Economics</p>
+              <p className="description">
+              This course uses economic analysis to understand contemporary issues in low-income countries. We consider why extreme poverty and hunger,
+              child mortality, low-levels of education, gender inequality, environmental degradation, high fertility, and child labor are pervasive in the
+              developing world. We also examine the economic consequences of globalization and infectious diseases such as malaria and HIV/AIDS.
+              For each topic, we seek to understand the factors and constraints influencing decision-making in developing countries. We use this understanding
+              to discuss the role of markets, civil organizations, government policy, and international institutions.
               </p>
             </div>
 
@@ -121,6 +133,16 @@ class Classes extends Component {
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">CS 65: Smartphone Programming</p>
+              <p className="description">
+                This course teaches students how to design, implement, test, debug and publish smartphone applications.
+                Topics include development environment, phone emulator, key programming paradigms, UI design including views and activities,
+                data persistence, messaging and networking, embedded sensors, location based services (e.g., Google Maps), cloud programming,
+                and publishing applications. Concepts are reinforced through a set of weekly programming assignments and group projects.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
               <p className="title">CS 74: Machine Learning and Statistical Data Analysis</p>
               <p className="description">
                 This course provides an introduction to statistical modeling and machine learning. Topics include learning theory, supervised and
@@ -139,6 +161,18 @@ class Classes extends Component {
                 This course primarily teaches R, a free software environment for statistical computing and graphics,
                 which is widely regarded as one of the most versatile and flexible tools for data visualization and, more broadly, data science.
                 Students completing the course will know how to “wrangle” and visualize data critical to their scientific endeavors.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">QSS 18: Introduction to Game Theory</p>
+              <p className="description">
+                Game theory is used to study how individuals and organizations interact strategically, and this course introduces game theory with a focus
+                on political science applications. Game theory is a standard tool in the social sciences, and insights from game theory are essential to
+                understanding many facets of politics, such as political party competition, legislative politics, international relations, and the provision
+                of public goods. Among other topics, the course will cover normal and extensive form games, Nash equilibria, imperfect information, mixed
+                strategies, and, if time permits, the basics of games with incomplete information. A course in game theory will change the way that one views
+                the world.
               </p>
             </div>
 
@@ -163,19 +197,6 @@ class Classes extends Component {
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">GOVT 10: Quantitative Political Analysis</p>
-              <p className="description">
-                This course will provide students with useful tools for undertaking empirical research in political science and will help them to
-                become informed consumers of quantitative political analysis. The course will first consider the general theoretical concepts underlying
-                empirical research, including the nature of causality, the structure and content of theories, and the formulation and testing of
-                competing hypotheses. The course will then employ these concepts to develop several quantitative approaches to political analysis.
-                Students will be introduced to two statistical methods frequently used by political scientists, contingency tables and linear regression.
-                By learning to systematically analyze political data, students will gain the ability to better conduct and evaluate empirical research
-                in both its quantitative and qualitative forms.
-              </p>
-            </div>
-
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
               <p className="title">GOVT 7.3: Media and Politics <span className="citation">*</span></p>
               <p className="description">
                 The variety of media sources covering politics has expanded substantially in recent years: online-only news, satire-based news,
@@ -191,6 +212,30 @@ class Classes extends Component {
                 genres of writing and argumentation.
               </p>
             </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">GOVT 10: Quantitative Political Analysis</p>
+              <p className="description">
+                This course will provide students with useful tools for undertaking empirical research in political science and will help them to
+                become informed consumers of quantitative political analysis. The course will first consider the general theoretical concepts underlying
+                empirical research, including the nature of causality, the structure and content of theories, and the formulation and testing of
+                competing hypotheses. The course will then employ these concepts to develop several quantitative approaches to political analysis.
+                Students will be introduced to two statistical methods frequently used by political scientists, contingency tables and linear regression.
+                By learning to systematically analyze political data, students will gain the ability to better conduct and evaluate empirical research
+                in both its quantitative and qualitative forms.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">GOVT 30.04: Political Misinformation & Conspiracy Theories</p>
+              <p className="description">
+                Why do people hold false or unsupported beliefs about politics and why are so those beliefs so hard to change? This course will explore the
+                psychological factors that make people vulnerable to political misinformation and conspiracy theories and the reasons that corrections so
+                often fail to change their minds. We will also analyze how those tendencies are exploited by political elites and consider possible approaches
+                that journalists and civic reformers could employ to combat misperceptions.
+              </p>
+            </div>
+
             <div id="citation-explanation">
               <p><span className="citation">*</span> indicates a merit citation</p>
             </div>

@@ -23,7 +23,7 @@ const AboutMe = () => {
           <div className="school">
             <div className="school-left">
               <p className="school-title"><a href="http://www.dartmouth.edu" target="_blank" rel="noopener noreferrer">Dartmouth College</a>  —  Hanover, NH</p>
-              <p id="gpa_left">Cumulative GPA: 3.89</p>
+              <p id="gpa_left">Cumulative GPA: 3.90</p>
             </div>
 
             <div className="school-right">
