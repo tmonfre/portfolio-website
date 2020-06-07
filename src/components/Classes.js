@@ -15,51 +15,35 @@ class Classes extends Component {
       return (
         <div id="classes">
           <Fade>
-            <h3>Upcoming Classes (Spring 2020)</h3>
+            <h3>Upcoming Classes (Fall 2020)</h3>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 61: Database Systems</p>
+              <p className="title">CS 98.01: Senior Design and Implementation Project I</p>
               <p className="description">
-              This course studies the management of large bodies of data or information. This includes schemes for the representation,
-              manipulation, and storage of complex information structures as well as algorithms for processing these structures efficiently
-              and for retrieving the information they contain. This course will teach the student techniques for storage allocation and deallocation,
-              retrieval (query formulation), and manipulation of large amounts of heterogeneous data. Students are expected to program and become
-              involved in a project in which they study important aspects of a database system: ways to organize a distributed database shared by
-              several computers; transactions that are processed locally and globally; robustness guarantees of the stored data against failure;
-              security and data integrity guarantees from unauthorized access; privacy; object-oriented schemes for multimedia data; indexing,
-              hashing, concurrency control, data mining, data warehousing, mobile databases and storage file structures.
+               Participation in a software engineering group project to meet a real-world need. Group members are responsible for all aspects of a software system,
+               including iterative requirements analysis, design, implementation, and testing. The course also stresses customer interactions, documentation,
+               process, and teamwork. The result is a software product of significant scope and significant benefit to a user base.
               </p>
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">QSS 30.03/GOVT 83.21: Experiments in Politics</p>
+              <p className="title">CS 55: Security and Privacy</p>
               <p className="description">
-              This class is a lab-style seminar in which we will design, field, and analyze an experimental study of political misperceptions.
-              Our goal is to publish a scholarly article about our findings in a peer-reviewed journal of political science-an ambitious project
-              that will require a substantial commitment from each student. Flexibility will also be essential since the course will evolve during
-              the semester based on the needs of the project.
+              The migration of important social processes to distributed, electronic systems raises critical security and privacy issues.
+              Precisely defining security and privacy is difficult; designing and deploying systems that provide these properties is even harder.
+              This course examines what security and privacy mean in these settings, the techniques that might help, and how to use these techniques effectively.
+              Our intention is to equip computer professionals with the breadth of knowledge necessary to navigate this emerging area.
               </p>
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">QSS 41: Analysis of Social Networks</p>
+              <p className="title">CS 76: Artificial Intelligence</p>
               <p className="description">
-              Students will gather and analyze data on a variety of networks (institutions, communities, elites, friendship systems, kinship systems,
-              trade networks, and the like). Techniques of analysis may include graph theory, text analysis, multidimensional scaling and cluster analysis,
-              and a variety of special models. Not limited to students in the major.
+              An introduction to the field of Artificial Intelligence. Topics include games, robotics, motion planning, knowledge representation,
+              logic and theorem proving, probabilistic reasoning over time, understanding of natural languages, and discussions of human intelligence.
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">ECON 24: Development Economics</p>
-              <p className="description">
-              This course uses economic analysis to understand contemporary issues in low-income countries. We consider why extreme poverty and hunger,
-              child mortality, low-levels of education, gender inequality, environmental degradation, high fertility, and child labor are pervasive in the
-              developing world. We also examine the economic consequences of globalization and infectious diseases such as malaria and HIV/AIDS.
-              For each topic, we seek to understand the factors and constraints influencing decision-making in developing countries. We use this understanding
-              to discuss the role of markets, civil organizations, government policy, and international institutions.
-              </p>
-            </div>
 
             <br />
             <h3>Relevant Past Courses</h3>
@@ -133,6 +117,20 @@ class Classes extends Component {
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">CS 61: Database Systems</p>
+              <p className="description">
+              This course studies the management of large bodies of data or information. This includes schemes for the representation,
+              manipulation, and storage of complex information structures as well as algorithms for processing these structures efficiently
+              and for retrieving the information they contain. This course will teach the student techniques for storage allocation and deallocation,
+              retrieval (query formulation), and manipulation of large amounts of heterogeneous data. Students are expected to program and become
+              involved in a project in which they study important aspects of a database system: ways to organize a distributed database shared by
+              several computers; transactions that are processed locally and globally; robustness guarantees of the stored data against failure;
+              security and data integrity guarantees from unauthorized access; privacy; object-oriented schemes for multimedia data; indexing,
+              hashing, concurrency control, data mining, data warehousing, mobile databases and storage file structures.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
               <p className="title">CS 65: Smartphone Programming</p>
               <p className="description">
                 This course teaches students how to design, implement, test, debug and publish smartphone applications.
@@ -177,6 +175,25 @@ class Classes extends Component {
             </div>
 
             <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">QSS 30.03: Experiments in Politics</p>
+              <p className="description">
+              This class is a lab-style seminar in which we will design, field, and analyze an experimental study of political misperceptions.
+              Our goal is to publish a scholarly article about our findings in a peer-reviewed journal of political science-an ambitious project
+              that will require a substantial commitment from each student. Flexibility will also be essential since the course will evolve during
+              the semester based on the needs of the project.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">QSS 41: Analysis of Social Networks</p>
+              <p className="description">
+              Students will gather and analyze data on a variety of networks (institutions, communities, elites, friendship systems, kinship systems,
+              trade networks, and the like). Techniques of analysis may include graph theory, text analysis, multidimensional scaling and cluster analysis,
+              and a variety of special models. Not limited to students in the major.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
               <p className="title">ECON 1: The Price System: Analysis, Problems, and Policies</p>
               <p className="description">
                 Emphasis will be placed on problems and policies of current interest as they relate to resource use and the distribution of income and
@@ -193,6 +210,17 @@ class Classes extends Component {
                 This course focuses on regression analysis (specification, estimation, and hypothesis testing) and problems and pitfalls in its application in economics.
                 The course involves extensive use of the statistical program STATA and will enable students to implement their own empirical research projects
                 in preparation for the culminating experience in the economics major.
+              </p>
+            </div>
+
+            <div className="course-dropdown" onClick={this.handleTitleClick}>
+              <p className="title">ECON 24: Development Economics</p>
+              <p className="description">
+              This course uses economic analysis to understand contemporary issues in low-income countries. We consider why extreme poverty and hunger,
+              child mortality, low-levels of education, gender inequality, environmental degradation, high fertility, and child labor are pervasive in the
+              developing world. We also examine the economic consequences of globalization and infectious diseases such as malaria and HIV/AIDS.
+              For each topic, we seek to understand the factors and constraints influencing decision-making in developing countries. We use this understanding
+              to discuss the role of markets, civil organizations, government policy, and international institutions.
               </p>
             </div>
 
