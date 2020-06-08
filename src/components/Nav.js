@@ -53,13 +53,13 @@ class Nav extends Component {
             <i className="fas fa-bars" id="mobile-nav-drop-down" onClick={this.handleDropDownClick} />
             <div id="nav-area">
               <Link to="/" onClick={this.handleScroll}>Home</Link>
-              <Link to="/aboutme" id="middle" onClick={this.handleScroll}>About Me</Link>
+              <Link to="/about" id="middle" onClick={this.handleScroll}>About Me</Link>
               <Link to="/projects" onClick={this.handleScroll}>Projects</Link>
             </div>
           </div>
           <div id="nav-area-mobile" ref={this.navArea}>
             <Link to="/" onClick={this.handleScroll}>Home</Link>
-            <Link to="/aboutme" id="middle" onClick={this.handleScroll}>About Me</Link>
+            <Link to="/about" id="middle" onClick={this.handleScroll}>About Me</Link>
             <Link to="/projects" onClick={this.handleScroll}>Projects</Link>
           </div>
         </div>

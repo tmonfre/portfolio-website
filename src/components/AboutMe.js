@@ -11,9 +11,9 @@ const AboutMe = () => {
         <div className="content-section">
           <h3>Summary</h3>
           <p>
-          Junior at Dartmouth College studying Computer Science + Quantitative Social Science. Have experience in full stack web development, software engineering, and data visualization.
-          Passionate about leveraging the power of technology to solve meaningful problems and building a data-driven world.
-          Currently seeking software engineering/full stack webdev internships for Summer 2020.
+          Rising senior at Dartmouth College studying Computer Science + Quantitative Social Science. Have experience in software engineering,
+          full stack web development, and mobile app development. Passionate about leveraging the power of technology to solve meaningful problems.
+          Currently seeking full-time roles in software engineering starting June 2021.
           </p>
         </div>
 
@@ -58,14 +58,14 @@ const AboutMe = () => {
                 <p>
                   <a href="https://www.disneystreaming.com" target="_blank" rel="noopener noreferrer">Software Engineering Intern  — Disney Streaming Services</a>
                 </p>
-                <p className="duration">September, 2019 - Present</p>
+                <p className="duration">September, 2019 - December, 2019</p>
               </div>
               <p>
-              Interning on the Native Client Platform – Connected Devices team. Building developer tools with C# and the .NET Core
-              Framework that allow users to create new NCP projects from the command line. Supporting the Connected Devices team
-              in launching Disney+. Working in a fast-paced, agile environment with daily stand-ups, and monitored process flow.
+                Intern on the Connected Devices – Native Client Platform team. Built developer tools with C# and the .NET Core Framework
+                that allow users to create and manage new NCP projects from the command line. Supported the Browser Based Devices team in launching Disney+.
+                Built a Test Harness app to assist development of the NCP Video Player. Worked in a fast-paced, agile environment with daily stand-ups,
+                and monitored process flow.
               </p>
-
             </div>
           </div>
 
@@ -82,14 +82,41 @@ const AboutMe = () => {
                 <p className="duration">September, 2018 - Present</p>
               </div>
               <p>
-              Develop full stack websites and apps for start-ups and researchers in this experiential learning lab at Dartmouth.
-              Have experience building flexible, large-scale frontends with modern frameworks such as React, and experience building scalable
-              backends with Node/Express servers and NoSQL (mongoDB) databases. Have experience building RESTful APIs and integrating full stack
-              apps with cloud computing services (such as Google Cloud Platform and IBM Watson). Have experience working in agile, fast-paced,
-              team environments that are flexible to product changes from partners. Peer mentor for React and Node – hold office hours and workshops.
-              Partner Relations Lead – help source unique projects.
+                Develop full stack web apps and mobile apps in this experiential learning lab at Dartmouth. Have experience building frontend
+                applications with React and React Native, and experience building backend/server architectures with Node/Express.js.
+                Have experience designing and using MySQL and MongoDB databases. Have experience building and interacting with RESTful APIs and cloud
+                computing services. Partner Relations Lead my junior year and Development Lead my senior year.
               </p>
 
+              <p>
+              Most recent project partnered with a start-up to build a mobile food ordering app and website. Also built an internal admin portal for
+              handling orders. Check it out on the App Store
+                <a className="link" href="https://tinyurl.com/yaa32swb" target="_blank" rel="noopener noreferrer"> here </a>
+              or on the web
+                <a className="link" href="https://order.6amhealth.com/" target="_blank" rel="noopener noreferrer"> here </a>.
+              </p>
+
+            </div>
+          </div>
+
+          <div className="company">
+            <div className="logo-image too-high">
+              <a href="https://web.cs.dartmouth.edu/" target="_blank" rel="noopener noreferrer">
+                <img src={require('../assets/aboutme/D_pine_logo.png')} width="65" height="65" alt="Dartmouth Computer Science" style={{ marginLeft: '5px', marginRight: '5px' }} />
+              </a>
+            </div>
+
+            <div className="job">
+              <div className="job-title">
+                <p>
+                  <a href="https://web.cs.dartmouth.edu/" target="_blank" rel="noopener noreferrer">Teaching Assistant  — Dartmouth College Department of Computer Science</a>
+                </p>
+                <p className="duration">March, 2018 - Present</p>
+              </div>
+              <p>
+              Have been a teaching assistant for CS1 (introductory course) and CS52 (full stack web development). Teach weekly lab sections,
+              hold regular office hours, and help grade assignments/exams.
+              </p>
             </div>
           </div>
 
@@ -112,27 +139,6 @@ const AboutMe = () => {
               Improved data integration using Python, Power Query, and Power BI for visualization and reporting purposes.
               Developed a task-tracking system to improve monthly closing processes. Visualized real-time data on task progress and
               analyzed bottlenecks/dependencies that slowed the process. Helped reduce monthly time to close by two days.
-              </p>
-            </div>
-          </div>
-
-          <div className="company">
-            <div className="logo-image too-high">
-              <a href="https://web.cs.dartmouth.edu/" target="_blank" rel="noopener noreferrer">
-                <img src={require('../assets/aboutme/dartmouth_logo.png')} width="75" height="75" alt="Dartmouth Computer Science" />
-              </a>
-            </div>
-
-            <div className="job">
-              <div className="job-title">
-                <p>
-                  <a href="https://web.cs.dartmouth.edu/" target="_blank" rel="noopener noreferrer">Teaching Assistant  — Dartmouth College Department of Computer Science</a>
-                </p>
-                <p className="duration">March, 2018 - June, 2018</p>
-              </div>
-              <p>
-              Teaching assistant for an introductory computer science course taught in Python during my freshman and sophomore spring.
-              Taught weekly lab sections, held regular office hours, and graded assignments/exams. Covered topics such as recursion, stacks/queues, classes/objects, BFS/DFS, and more.
               </p>
             </div>
           </div>
@@ -181,23 +187,23 @@ const AboutMe = () => {
                 <li>Java</li>
                 <li>JavaScript</li>
                 <li>C</li>
-                <li>C#</li>
+                <li>C#/.NET</li>
                 <li>Python</li>
                 <li>React.js</li>
-                <li>Node/Express.js</li>
                 <li>Redux</li>
                 <li>HTML/CSS/SASS</li>
                 <li>React Native</li>
+                <li>Node/Express.js</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
                 <li>R</li>
-                <li>MatLab</li>
+                <li>MATLAB</li>
               </ul>
             </div>
 
             <div className="flex-item">
               <p className="content-title">Learning</p>
               <ul>
-                <li>Ruby on Rails</li>
-                <li>SQL</li>
                 <li>Swift</li>
               </ul>
             </div>
@@ -218,6 +224,7 @@ const AboutMe = () => {
         <div className="content-section">
           <h3>Awards</h3>
           <ul>
+            <li>James O. Freedman Presidential Scholar</li>
             <li>Dartmouth College Academic Honor List</li>
             <li>Merit Citation in CS 52: Full Stack Web Development</li>
             <li>Merit Citation in Gov 7: Media and Politics</li>

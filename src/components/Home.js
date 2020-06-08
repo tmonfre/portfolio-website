@@ -99,30 +99,68 @@ export default class Home extends Component {
     });
   };
 
+  renderBottomButtons = () => {
+    return (
+      <div id="content-preview-area" ref={this.contentPreviewArea}>
+        <Link to="/about">
+          <div className="preview-box about-me-text" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+            <center>
+              <p>About Me</p>
+              <ul>
+                <Link to="/about" className="hash-link"><li id="work-experience-link">Work Experience</li></Link>
+                <Link to="/about" className="hash-link"><li id="skills-abilities-link">Skills & Abilities</li></Link>
+              </ul>
+            </center>
+          </div>
+        </Link>
+
+        <div className="preview-box projects-box" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+          <center>
+            <Link to="/projects" id="projects-box-header"><p>Projects</p></Link>
+            <ul>
+              <Link to="/projects"><li>Samples</li></Link>
+              <a href="https://github.com/tmonfre" target="_blank" rel="noopener noreferrer"><li>GitHub</li></a>
+            </ul>
+          </center>
+        </div>
+
+        <a href="mailto:thomas.a.monfre.21@dartmouth.edu">
+          <div className="preview-box contact-me-box" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+            <center>
+              <p>Contact Me</p>
+              <ul>
+                <li><em>Click here to send me an email</em></li>
+              </ul>
+            </center>
+          </div>
+        </a>
+      </div>
+    );
+  }
+
   render() {
     return (
       <div>
         <Fade>
           <div id="about-me-preview">
             <div id="circle">
-              <Link to="/aboutme">
+              <Link to="/about">
                 <img src={require('../assets/home/profile_photo.png')} alt="me" height="300" width="300" />
               </Link>
             </div>
             <div id="about-me-text">
               <p>
-                Junior at Dartmouth College studying Computer Science + Quantitative Social Science. Software Engineering Intern
+                Rising senior at Dartmouth College studying Computer Science + Quantitative Social Science. Software Engineering Intern
                 at <a href="https://www.disneystreaming.com/" target="_blank" rel="noopener noreferrer">Disney Streaming Services</a>,
                 and Full-Stack Software Engineer at the <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer">DALI Lab.</a>
               </p>
               <br />
               <p>
-                Have experience building full-stack web apps, designing database/server architectures, and creating robust data visualizations.
-                Passionate about building end-to-end web and mobile apps that integrate with APIs and cloud computing services. Self-motivated, driven to succeed,
-                and excited about leveraging the power of technology to solve meaningful problems.
+                Have experience building full-stack web apps, mobile apps, and database/server architectures.
+                Self-motivated, driven to succeed, and excited about leveraging the power of technology to solve meaningful problems.
               </p>
               <br />
-              <p>Read more about me <Link to="/aboutme">here</Link> or download my full resume <a href="http://tiny.cc/thomas-monfre-resume">here.</a></p>
+              <p>Read more about me <Link to="/about">here</Link> or download my full resume <a href="http://tiny.cc/thomas-monfre-resume">here.</a></p>
             </div>
           </div>
 
@@ -142,41 +180,6 @@ export default class Home extends Component {
                 </Modal>
               ) : null}
             </ModalGateway>
-          </div>
-
-          <div id="content-preview-area" ref={this.contentPreviewArea}>
-            <Link to="/aboutme">
-              <div className="preview-box about-me-text" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                <center>
-                  <p>About Me</p>
-                  <ul>
-                    <Link to="/aboutme" className="hash-link"><li id="work-experience-link">Work Experience</li></Link>
-                    <Link to="/aboutme" className="hash-link"><li id="skills-abilities-link">Skills & Abilities</li></Link>
-                  </ul>
-                </center>
-              </div>
-            </Link>
-
-            <div className="preview-box projects-box" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-              <center>
-                <Link to="/projects" id="projects-box-header"><p>Projects</p></Link>
-                <ul>
-                  <Link to="/projects"><li>Samples</li></Link>
-                  <a href="https://github.com/tmonfre" target="_blank" rel="noopener noreferrer"><li>GitHub</li></a>
-                </ul>
-              </center>
-            </div>
-
-            <a href="mailto:thomas.a.monfre.21@dartmouth.edu">
-              <div className="preview-box contact-me-box" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                <center>
-                  <p>Contact Me</p>
-                  <ul>
-                    <li><em>Click here to send me an email</em></li>
-                  </ul>
-                </center>
-              </div>
-            </a>
           </div>
         </Fade>
       </div>
