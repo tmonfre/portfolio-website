@@ -93,7 +93,7 @@ const AboutMe = () => {
               handling orders. Check it out on the App Store
                 <a className="link" href="https://tinyurl.com/yaa32swb" target="_blank" rel="noopener noreferrer"> here </a>
               or on the web
-                <a className="link" href="https://order.6amhealth.com/" target="_blank" rel="noopener noreferrer"> here </a>.
+                <a className="link" href="https://order.6amhealth.com/" target="_blank" rel="noopener noreferrer"> here</a>.
               </p>
 
             </div>

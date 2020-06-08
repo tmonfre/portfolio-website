@@ -8,7 +8,7 @@ const $ = require('jquery');
 class Classes extends Component {
     // show the course description when the user clicks on the course title
     handleTitleClick = (event) => {
-      $(event.currentTarget).find('.description').slideToggle(350);
+      $(event.currentTarget).parent().find('.description').slideToggle(350);
     }
 
     render() {
@@ -17,8 +17,8 @@ class Classes extends Component {
           <Fade>
             <h3>Upcoming Classes (Fall 2020)</h3>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 98.01: Senior Design and Implementation Project I</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 98.01: Senior Design and Implementation Project I</p>
               <p className="description">
                Participation in a software engineering group project to meet a real-world need. Group members are responsible for all aspects of a software system,
                including iterative requirements analysis, design, implementation, and testing. The course also stresses customer interactions, documentation,
@@ -26,8 +26,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 55: Security and Privacy</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 55: Security and Privacy</p>
               <p className="description">
               The migration of important social processes to distributed, electronic systems raises critical security and privacy issues.
               Precisely defining security and privacy is difficult; designing and deploying systems that provide these properties is even harder.
@@ -36,8 +36,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 76: Artificial Intelligence</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 76: Artificial Intelligence</p>
               <p className="description">
               An introduction to the field of Artificial Intelligence. Topics include games, robotics, motion planning, knowledge representation,
               logic and theorem proving, probabilistic reasoning over time, understanding of natural languages, and discussions of human intelligence.
@@ -48,8 +48,8 @@ class Classes extends Component {
             <br />
             <h3>Relevant Past Courses</h3>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 1: Introduction to Programming and Computation</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 1: Introduction to Programming and Computation</p>
               <p className="description">
                 This course introduces computational concepts that are fundamental to computer science and are useful for the sciences,
                 social sciences, engineering, and digital arts. Students will write their own interactive programs to analyze data,
@@ -59,8 +59,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 10: Problem Solving via Object-Oriented Programming</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 10: Problem Solving via Object-Oriented Programming</p>
               <p className="description">
                 Motivated by problems that arise in a variety of disciplines, this course examines concepts and develops skills in solving
                 computational problems. Topics covered include abstraction (how to hide details), modularity (how to decompose problems),
@@ -69,8 +69,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 11: Foundations of Applied Computer Science</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 11: Foundations of Applied Computer Science</p>
               <p className="description">
                 This course introduces core computational and mathematical techniques for data analysis and physical modeling,
                 foundational to applications including computational biology, computer vision, graphics, machine learning, and robotics.
@@ -80,16 +80,16 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 30: Discrete Mathematics in Computer Science</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 30: Discrete Mathematics in Computer Science</p>
               <p className="description">
                 This course integrates discrete mathematics with algorithms and data structures, using computer science applications to motivate the mathematics.
                 It covers logic and proof techniques, induction, set theory, counting, asymptotics, discrete probability, graphs, and trees.
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 31: Algorithms</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 31: Algorithms</p>
               <p className="description">
                 A survey of fundamental algorithms and algorithmic techniques, including divide-and-conquer algorithms, lower bounds, dynamic programming,
                 greedy algorithms, amortized analysis, and graph algorithms. Presentation, implementation and formal analysis, including space/time complexity
@@ -97,8 +97,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 50: Software Design and Implementation</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 50: Software Design and Implementation</p>
               <p className="description">
                 Techniques for building large, reliable, maintainable, and understandable software systems.
                 Topics include UNIX tools and filters, programming in C, software testing, debugging, and teamwork in software development.
@@ -106,8 +106,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 52: Full-Stack Web Development <span className="citation">*</span></p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 52: Full-Stack Web Development <span className="citation">*</span></p>
               <p className="description">
                 The Web is a powerful delivery tool for complex real-time applications.
                 This is an introduction to full stack Web application development — the approach of integrating numerous techniques and technologies to build modern Web applications.
@@ -116,8 +116,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 61: Database Systems</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 61: Database Systems</p>
               <p className="description">
               This course studies the management of large bodies of data or information. This includes schemes for the representation,
               manipulation, and storage of complex information structures as well as algorithms for processing these structures efficiently
@@ -130,8 +130,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 65: Smartphone Programming</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 65: Smartphone Programming</p>
               <p className="description">
                 This course teaches students how to design, implement, test, debug and publish smartphone applications.
                 Topics include development environment, phone emulator, key programming paradigms, UI design including views and activities,
@@ -140,8 +140,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">CS 74: Machine Learning and Statistical Data Analysis</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>CS 74: Machine Learning and Statistical Data Analysis</p>
               <p className="description">
                 This course provides an introduction to statistical modeling and machine learning. Topics include learning theory, supervised and
                 unsupervised machine learning, statistical inference and prediction, and data mining. Applications of these techniques to a wide
@@ -151,8 +151,8 @@ class Classes extends Component {
 
             <br />
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">QSS 17: Data Visualization</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>QSS 17: Data Visualization</p>
               <p className="description">
                 Big data are everywhere – in government, academic research, media, business, and everyday life.
                 To tell the stories hidden behind blizzards of data, effective visualization is critical.
@@ -162,8 +162,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">QSS 18: Introduction to Game Theory</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>QSS 18: Introduction to Game Theory</p>
               <p className="description">
                 Game theory is used to study how individuals and organizations interact strategically, and this course introduces game theory with a focus
                 on political science applications. Game theory is a standard tool in the social sciences, and insights from game theory are essential to
@@ -174,8 +174,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">QSS 30.03: Experiments in Politics</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>QSS 30.03: Experiments in Politics</p>
               <p className="description">
               This class is a lab-style seminar in which we will design, field, and analyze an experimental study of political misperceptions.
               Our goal is to publish a scholarly article about our findings in a peer-reviewed journal of political science-an ambitious project
@@ -184,8 +184,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">QSS 41: Analysis of Social Networks</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>QSS 41: Analysis of Social Networks</p>
               <p className="description">
               Students will gather and analyze data on a variety of networks (institutions, communities, elites, friendship systems, kinship systems,
               trade networks, and the like). Techniques of analysis may include graph theory, text analysis, multidimensional scaling and cluster analysis,
@@ -193,18 +193,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">ECON 1: The Price System: Analysis, Problems, and Policies</p>
-              <p className="description">
-                Emphasis will be placed on problems and policies of current interest as they relate to resource use and the distribution of income and
-                output. Students will receive an introduction to the theory of supply and demand in both product and factor markets in order to examine
-                selected topics drawn from such areas as industrial organization and antitrust policy, labor economics, international trade, economic
-                development, agriculture, urban problems, poverty and discrimination, public sector economics, and environmental problems.
-              </p>
-            </div>
-
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">ECON 20: Econometrics</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>ECON 20: Econometrics</p>
               <p className="description">
                 Econometrics is the statistical analysis of economic data.
                 This course focuses on regression analysis (specification, estimation, and hypothesis testing) and problems and pitfalls in its application in economics.
@@ -213,8 +203,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">ECON 24: Development Economics</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>ECON 24: Development Economics</p>
               <p className="description">
               This course uses economic analysis to understand contemporary issues in low-income countries. We consider why extreme poverty and hunger,
               child mortality, low-levels of education, gender inequality, environmental degradation, high fertility, and child labor are pervasive in the
@@ -224,8 +214,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">GOVT 7.3: Media and Politics <span className="citation">*</span></p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>GOVT 7.3: Media and Politics <span className="citation">*</span></p>
               <p className="description">
                 The variety of media sources covering politics has expanded substantially in recent years: online-only news, satire-based news,
                 social media forums such as blogs, and other types of “new media” now exist alongside more traditional media sources such as
@@ -241,8 +231,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">GOVT 10: Quantitative Political Analysis</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>GOVT 10: Quantitative Political Analysis</p>
               <p className="description">
                 This course will provide students with useful tools for undertaking empirical research in political science and will help them to
                 become informed consumers of quantitative political analysis. The course will first consider the general theoretical concepts underlying
@@ -254,8 +244,8 @@ class Classes extends Component {
               </p>
             </div>
 
-            <div className="course-dropdown" onClick={this.handleTitleClick}>
-              <p className="title">GOVT 30.04: Political Misinformation & Conspiracy Theories</p>
+            <div className="course-dropdown">
+              <p className="title" onClick={this.handleTitleClick}>GOVT 30.04: Political Misinformation & Conspiracy Theories</p>
               <p className="description">
                 Why do people hold false or unsupported beliefs about politics and why are so those beliefs so hard to change? This course will explore the
                 psychological factors that make people vulnerable to political misinformation and conspiracy theories and the reasons that corrections so
