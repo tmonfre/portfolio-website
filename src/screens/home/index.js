@@ -34,13 +34,13 @@ const Home = () => {
           </div>
           <div id="about-me-text">
             <p>
-              Rising senior at Dartmouth College studying Computer Science + Quantitative Social Science. Software Engineering Intern
+              Senior at Dartmouth College studying Computer Science + Quantitative Social Science. Former intern
               at <a href="https://www.disneystreaming.com/" target="_blank" rel="noopener noreferrer">Disney Streaming Services</a>,
               and Full-Stack Software Engineer at the <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer">DALI Lab.</a>
             </p>
             <br />
             <p>
-              Have experience building full-stack web apps, mobile apps, and database/server architectures.
+              Have experience in full stack web development, mobile development, and software engineering.
               Self-motivated, driven to succeed, and excited about leveraging the power of technology to solve meaningful problems.
             </p>
             <br />

@@ -14,10 +14,10 @@ const Classes = () => {
   return (
     <div id="classes">
       <Fade>
-        <h3>Upcoming Classes (Fall 2020)</h3>
+        <h3>Upcoming Classes (Winter 2021)</h3>
 
         <div className="course-dropdown">
-          <p className="title" onClick={handleTitleClick}>CS 98.01: Senior Design and Implementation Project I</p>
+          <p className="title" onClick={handleTitleClick}>CS 98.02: Senior Design and Implementation Project II</p>
           <p className="description">
            Participation in a software engineering group project to meet a real-world need. Group members are responsible for all aspects of a software system,
            including iterative requirements analysis, design, implementation, and testing. The course also stresses customer interactions, documentation,
@@ -26,23 +26,20 @@ const Classes = () => {
         </div>
 
         <div className="course-dropdown">
-          <p className="title" onClick={handleTitleClick}>CS 55: Security and Privacy</p>
+          <p className="title" onClick={handleTitleClick}>CS 51: Computer Architecture</p>
           <p className="description">
-          The migration of important social processes to distributed, electronic systems raises critical security and privacy issues.
-          Precisely defining security and privacy is difficult; designing and deploying systems that provide these properties is even harder.
-          This course examines what security and privacy mean in these settings, the techniques that might help, and how to use these techniques effectively.
-          Our intention is to equip computer professionals with the breadth of knowledge necessary to navigate this emerging area.
+            The architecture and organization of a simple computer system is studied. Topics covered include how information is represented in memory,
+            machine-language instructions and how they can be implemented at the digital logic level and microcode level, assembly language programming,
+            and input/output operations. Speedup techniques, such as pipelining and caching, are also covered.
           </p>
         </div>
 
         <div className="course-dropdown">
-          <p className="title" onClick={handleTitleClick}>CS 76: Artificial Intelligence</p>
+          <p className="title" onClick={handleTitleClick}>QSS 83: Minor Culminating Project</p>
           <p className="description">
-          An introduction to the field of Artificial Intelligence. Topics include games, robotics, motion planning, knowledge representation,
-          logic and theorem proving, probabilistic reasoning over time, understanding of natural languages, and discussions of human intelligence.
+            Culminating research project for the Minor in Quantitative Social Sciences.
           </p>
         </div>
-
 
         <br />
         <h3>Relevant Past Courses</h3>
@@ -116,6 +113,16 @@ const Classes = () => {
         </div>
 
         <div className="course-dropdown">
+          <p className="title" onClick={handleTitleClick}>CS 55: Security and Privacy</p>
+          <p className="description">
+          The migration of important social processes to distributed, electronic systems raises critical security and privacy issues.
+          Precisely defining security and privacy is difficult; designing and deploying systems that provide these properties is even harder.
+          This course examines what security and privacy mean in these settings, the techniques that might help, and how to use these techniques effectively.
+          Our intention is to equip computer professionals with the breadth of knowledge necessary to navigate this emerging area.
+          </p>
+        </div>
+
+        <div className="course-dropdown">
           <p className="title" onClick={handleTitleClick}>CS 61: Database Systems</p>
           <p className="description">
           This course studies the management of large bodies of data or information. This includes schemes for the representation,
@@ -145,6 +152,15 @@ const Classes = () => {
             This course provides an introduction to statistical modeling and machine learning. Topics include learning theory, supervised and
             unsupervised machine learning, statistical inference and prediction, and data mining. Applications of these techniques to a wide
             variety of data sets will be described.
+          </p>
+        </div>
+
+        <div className="course-dropdown">
+          <p className="title" onClick={handleTitleClick}>CS 98.01: Senior Design and Implementation Project I</p>
+          <p className="description">
+           Participation in a software engineering group project to meet a real-world need. Group members are responsible for all aspects of a software system,
+           including iterative requirements analysis, design, implementation, and testing. The course also stresses customer interactions, documentation,
+           process, and teamwork. The result is a software product of significant scope and significant benefit to a user base.
           </p>
         </div>
 
