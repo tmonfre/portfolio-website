@@ -1,17 +1,19 @@
 {
-  "name": "portfolio-website",
+  "name": "tmonfre.github.io",
   "version": "2.0.0",
   "description": "portfolio website for thomas monfre",
   "main": "src/index.js",
-  "repository": "https://github.com/tmonfre/portfolio-website",
+  "repository": "https://github.com/tmonfre/tmonfre.github.io",
   "author": "Thomas Monfre <tmonfre@users.noreply.github.com>",
+  "homepage": "https://tmonfre.github.io",
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
     "test": "eslint src/**.js",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d tmonfre.surge.sh; yarn clean"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist; yarn clean"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -30,6 +32,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "file-loader": "^3.0.1",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
