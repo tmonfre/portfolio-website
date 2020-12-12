@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Nav.scss';
+import './style.scss';
 
 const $ = require('jquery');
 
-class Nav extends Component {
+class NavBar extends Component {
   constructor(props) {
     super(props);
 
@@ -69,4 +69,4 @@ class Nav extends Component {
   }
 }
 
-export default Nav;
+export default NavBar;

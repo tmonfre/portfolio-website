@@ -12,8 +12,7 @@
     "test": "eslint src/**.js",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist; yarn clean"
+    "deploy": "yarn build; gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

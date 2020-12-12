@@ -2,7 +2,7 @@ import React from 'react';
 import ImgurEmbed from 'react-imgur-embed';
 import Fade from 'react-reveal/Fade';
 
-import '../styles/Projects.scss';
+import './style.scss';
 
 const Projects = () => {
   return (

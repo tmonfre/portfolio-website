@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
-import '../styles/AboutMe.scss';
+import './style.scss';
 
 const AboutMe = () => {
   return (
@@ -49,7 +49,7 @@ const AboutMe = () => {
           <div className="company">
             <div className="logo-image">
               <a href="https://www.disneystreaming.com" target="_blank" rel="noopener noreferrer">
-                <img src={require('../assets/aboutme/disney_streaming.png')} width="75" height="75" alt="Disney Streaming Services" />
+                <img src={require('../../assets/aboutme/disney_streaming.png')} width="75" height="75" alt="Disney Streaming Services" />
               </a>
             </div>
 
@@ -71,7 +71,7 @@ const AboutMe = () => {
 
           <div className="company">
             <div className="logo-image">
-              <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer"><img src={require('../assets/aboutme/dali_logo.png')} width="75" height="75" alt="DALI Lab" /></a>
+              <a href="http://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer"><img src={require('../../assets/aboutme/dali_logo.png')} width="75" height="75" alt="DALI Lab" /></a>
             </div>
 
             <div className="job">
@@ -102,7 +102,7 @@ const AboutMe = () => {
           <div className="company">
             <div className="logo-image too-high">
               <a href="https://web.cs.dartmouth.edu/" target="_blank" rel="noopener noreferrer">
-                <img src={require('../assets/aboutme/D_pine_logo.png')} width="65" height="65" alt="Dartmouth Computer Science" style={{ marginLeft: '5px', marginRight: '5px' }} />
+                <img src={require('../../assets/aboutme/D_pine_logo.png')} width="65" height="65" alt="Dartmouth Computer Science" style={{ marginLeft: '5px', marginRight: '5px' }} />
               </a>
             </div>
 
@@ -123,7 +123,7 @@ const AboutMe = () => {
           <div className="company">
             <div className="logo-image">
               <a href="http://wpshealthsolutions.com/" target="_blank" rel="noopener noreferrer">
-                <img src={require('../assets/aboutme/wps_logo.png')} width="75" height="75" alt="WPS Health Solutions" />
+                <img src={require('../../assets/aboutme/wps_logo.png')} width="75" height="75" alt="WPS Health Solutions" />
               </a>
             </div>
 
