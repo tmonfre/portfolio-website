@@ -21,6 +21,8 @@ import './style.scss';
 ReactGA.initialize('UA-135923598-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
+require('./assets/favicon.png');
+
 const App = () => {
   const navbar = useRef();
 
